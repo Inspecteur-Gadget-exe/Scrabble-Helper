@@ -1,0 +1,11 @@
+Dans cette version il est possible de :
+
+- renseigner les lettres présentes dans la réglette
+- renseigner les lettres présentes sur le plateau de
+- choisir la longueur du mot
+
+Filtres par : 
+
+- Ordre croissant
+- Ordre décroissant
+- Ordre alphabétique
