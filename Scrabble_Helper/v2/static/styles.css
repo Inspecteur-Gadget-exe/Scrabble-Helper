@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2e8b57; /* Vert du plateau de Scrabble */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 2px solid #dcb35c; /* Couleur beige rappelant les cases du Scrabble */
+    color: #000; /* Texte noir pour une meilleure visibilité */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #000; /* Texte noir pour plus de lisibilité */
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"] {
+    width: 80%; /* Réduire la largeur des champs */
+    padding: 8px; /* Réduire l'épaisseur du padding */
+    border: 2px solid #dcb35c; /* Beige pour les bordures des champs */
+    border-radius: 4px;
+    font-size: 1.1em; /* Réduire la taille de la police */
+    background-color: #fdf5e6; /* Fond beige clair pour rappeler les lettres */
+    color: #333;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #dcb35c; /* Beige rappelant les lettres du Scrabble */
+    color: #000;
+    border: 2px solid #333;
+    border-radius: 4px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #b8934b; /* Sombre lorsque le bouton est survolé */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #333;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
